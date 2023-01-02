@@ -1,20 +1,22 @@
-Klasa to …
+Klasa to szablon, ktory definiuje postac obiektu. Okresla ona zarowno dane obiektu (skladowe)
+jak i rowniez kod, ktory operuje na tych danych (metody)
 
-Obiekt to …
+Obiest to naturalna reprezentacja klasy. Przechowuje informacje o zmiennych
+ i pozwala się do nich odwoływać, a także za jego pomocą możemy wywoływać metody.
 
-Zmienna to …
+Zmienna to kontener na wartości. Każda zmienna ma swoją nazwę, typ, oraz przypisaną wartość.
 
-Każda zmienna musi mieć określony …, np. int, albo String.
+Każda zmienna musi mieć określony typ np. int, albo String.
 
-Jeżeli deklarację zmiennej poprzedzimy słowem final, to …
+Jeżeli deklarację zmiennej poprzedzimy słowem final, to może być ona tylko raz (w dowolnym miejscu) zainicjowana i będzie się nazywała zmienną finalną
 
-… są wywoływane przez operator … i służą do tworzenia nowych obiektów.
+konstruktory są wywoływane przez operator new i służą do tworzenia nowych obiektów.
 
-Jeśli w klasie zdefiniowano chociaż jeden … to kompilator nie wygeneruje dla nas … domyślnego.
+Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
 
 Zakładając, że istnieje klasa Car, to przy zapisie:
 
 	Car car1 = new Car("BMW", "M5', 2007, 2.6);
 	Car car2 = car1;
 
-car1 i car2 to dwie … wskazujące na ten sam …
+car1 i car2 to dwie referencje… wskazujące na ten sam …obiekt
